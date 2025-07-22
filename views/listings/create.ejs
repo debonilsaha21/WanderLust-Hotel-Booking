@@ -1,0 +1,42 @@
+<% layout('./layouts/boilerplate') -%>
+
+<body>
+    <h3>Create Your Listings</h3>
+    <form method="post" action="/listings" novalidate class="needs-validation">
+        <div>
+            <label for="title" class="form-label">Enter Title: &nbsp;</label>
+            <input placeholder="title" name="listing[title]" type="text" class="form-control" required>
+            <div class="valid-feedback">Title looks good</div>
+            <div class="invalid-feedback">Please enter a valid title</div>
+        </div>
+
+        &nbsp;
+        <div>
+            <label for="Description" class="form-label">Describe your Property: </label>
+            <textarea placeholder="Describe your property" name="listing[description]" type="text" class="form-control"
+                required></textarea>
+        </div>
+        &nbsp;
+        <div>
+            <label for="image" class="form-label">Enter image URL: </label>
+            <input placeholder="image url" name="listing[image]" type="text" class="form-control" required>
+        </div>
+        &nbsp;
+        <div>
+            <label for="price" class="form-label">Enter Price: </label>
+            <input placeholder="price" name="listing[price]" class="form-control" required>
+        </div>
+        &nbsp;
+        <div>
+            <label for="location" class="form-label">Enter Location: </label>
+            <input placeholder="location" name="listing[location]" type="text" class="form-control" required>
+        </div>
+        &nbsp;
+        <div>
+            <label for="country" class="form-label">Enter Country: </label>
+            <input placeholder="country" name="listing[country]" type="text" class="form-control" required>
+        </div>
+        &nbsp;&nbsp;<br />
+        <button class="btn btn-dark add-btn">Submit</button>
+    </form>
+</body>

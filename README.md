@@ -1,4 +1,4 @@
-# Airbnb-Website
+# WanderLust Hotel-Booking
 Build a complete hotel booking website using Nodejs and MongoDb database.
 
 🌍 Wanderlust - Travel Destination Sharing Platform

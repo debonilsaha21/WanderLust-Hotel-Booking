@@ -1,4 +1,5 @@
 # WanderLust Hotel-Booking
+(public link: https://wanderlust-hotel-booking-wx78.onrender.com/listings)
 Build a complete hotel booking website using Nodejs and MongoDb database.
 
 🌍 Wanderlust - Travel Destination Sharing Platform
